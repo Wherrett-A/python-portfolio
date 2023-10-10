@@ -4,5 +4,6 @@
 
 Every programmers first program. A program that prints "Hello World!"
 
-## task2.py
+## [task2.py](task2.py)
 
+prints an inputted name.
