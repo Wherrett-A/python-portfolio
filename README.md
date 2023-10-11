@@ -11,3 +11,10 @@ Prints an inputted name.
 ## [task3.py](task3.py)
 
 Converts degrees celcius to farenheit using formula (0°C × 9/5) + 32 = 32°F
+
+## [task4.py](task4.py)
+
+Batting average calculator.
+
+## [task5.py](task5.py)
+
