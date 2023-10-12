@@ -18,3 +18,4 @@ Batting average calculator.
 
 ## [task5.py](task5.py)
 
+splits a students into full groups then tells you the number of students left over.
