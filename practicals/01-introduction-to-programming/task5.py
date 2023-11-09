@@ -18,5 +18,5 @@ if __name__ == '__main__':
         groups = val // size
         remainder = val % size
 
-        # prints the batting average to the console
+        # prints the number of groups and the number of left over students to the console
         print(f'The class of {val} students would have {groups} groups with {remainder} students left over.')
