@@ -1,5 +1,5 @@
-'''Write a program that prompts a user to enter a temperature in Celsius, and then
-displays the corresponding temperature in Fahrenheit'''
+"""Write a program that prompts a user to enter a temperature in Celsius, and then
+displays the corresponding temperature in Fahrenheit"""
 
 # only runs the program if the code is executed directly rather than imported
 if __name__ == '__main__':

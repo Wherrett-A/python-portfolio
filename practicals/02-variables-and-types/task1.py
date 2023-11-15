@@ -1,6 +1,6 @@
-'''Last week you wrote a program that printed out a cheery greeting including your
+"""Last week you wrote a program that printed out a cheery greeting including your
 name. Take a copy of it, and modify it so that the user enters their name at the
-keyboard, and then receives a greeting'''
+keyboard, and then receives a greeting"""
 
 # only runs the program if the code is executed directly rather than imported
 if __name__ == '__main__':

@@ -1,8 +1,8 @@
-'''The Head of Computing at the University of Poppleton is tasked with dividing a
+"""The Head of Computing at the University of Poppleton is tasked with dividing a
 group of students into lab groups. A lab group is usually 24 students, but this is
 sometimes varied to create groups of similar size. Write a program that prompts for
 the number of students and group size, and then displays how many groups will be
-needed and how many will be left over in a smaller group.'''
+needed and how many will be left over in a smaller group."""
 
 # only runs the program if the code is executed directly rather than imported
 if __name__ == '__main__':

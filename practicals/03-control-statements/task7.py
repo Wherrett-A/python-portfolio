@@ -1,5 +1,5 @@
-'''Modify your "Times Table" program so that the user enters the number of the table
-they require. This number should be between 0 and 12 inclusive.'''
+"""Modify your "Times Table" program so that the user enters the number of the table
+they require. This number should be between 0 and 12 inclusive."""
 
 # only runs the program if the code is executed directly rather than imported
 if __name__ == '__main__':

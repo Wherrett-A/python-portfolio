@@ -1,5 +1,5 @@
-'''Modify your previous program so that the password must be between 8 and 12
-characters (inclusive) long.'''
+"""Modify your previous program so that the password must be between 8 and 12
+characters (inclusive) long."""
 # imports inbuilt 'getpass' module to hide password input
 from getpass import getpass
 

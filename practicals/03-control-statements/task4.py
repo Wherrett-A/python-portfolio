@@ -1,5 +1,5 @@
-'''Modify your program again so that the chosen password cannot be one of a list of
-common passwords.'''
+"""Modify your program again so that the chosen password cannot be one of a list of
+common passwords."""
 # imports inbuilt 'getpass' module to hide password input
 from getpass import getpass
 

@@ -1,6 +1,6 @@
-'''Modify your greeting program so that if the user does not enter a name (i.e. they
+"""Modify your greeting program so that if the user does not enter a name (i.e. they
 just press enter), the program responds "Hello, Stranger!". Otherwise it should print
-a greeting with their name as before'''
+a greeting with their name as before"""
 
 # only runs the program if the code is executed directly rather than imported
 if __name__ == '__main__':
