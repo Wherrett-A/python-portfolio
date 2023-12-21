@@ -3,21 +3,18 @@ centigrade into the equivalent in fahrenheit, and another that does the reverse
 conversion. Test both functions. (Google will find you the formulae)."""
 
 
-# defines convert_temperature function
-def convert_temp(temp):
-    """uses last character (c/f) to define if temperature is in Celsius or Fahrenheit respectively"""
-    if temp[-1:].upper() == 'C':
-        return int(temp[:-1]) * 1.8 + 32
-    elif temp[-1:].upper() == 'F':
-        return (int(temp[:-1]) - 32) * 1.8
-    else:
-        return
+def ctof(temp):
+    """converts Centigrade to Fahrenheit"""
+    return int(temp) * 1.8 + 32
 
 
-# only runs the program if the code is executed directly rather than imported
+def ftoc(temp):
+    """converts Fahrenheit to Centigrade"""
+    return (int(temp) - 32) / 1.8
+
+
 if __name__ == '__main__':
-    print('use F or C at end of temperature to define whether it is in fahrenheit or celsius')
-    # takes a string from the user to pass to process function
-    user_temp = input('type a temperature to covert: ')
-    # prints returned string from the processed function after the users string has been entered
-    print(process(user_string))
+    # coverts 40°C to °F, should be 104
+    print(ctof(40))
+    # coverts 104°F to °C, should be 40
+    print(ftoc(104))
