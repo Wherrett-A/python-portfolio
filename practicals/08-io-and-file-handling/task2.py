@@ -6,25 +6,27 @@ import sys
 
 
 def validate_args():
-    if len(sys.argv) != 2:
+    if len(sys.argv) != 3:
         print('No argument was given or too many arguments given\n' +
-              'use "task1.py <file address>"')
+              'use "task2.py <file address 1> <file address 2>"')
         return
 
     try:
-        nl()
+        diff()
     except FileNotFoundError:
-        print(f'File does not exist!\n'
-              f'use "task1.py <file address>')
+        print(f'one or more of the files do not exist!\n'
+              f'use "task2.py <file address 1> <file address 2>')
 
 
-def nl():
+def diff():
     with open(sys.argv[1], 'r') as file:
-        content = file.readlines()
-        # remove newlines from end of each line in list
-        content = [line.rstrip() for line in content]
-        for line in range(len(content)):
-            print(f'<ln:{line + 1}\t>|{content[line]}')
+        file1_content = file.read()
+    with open(sys.argv[2], 'r') as file:
+        file2_content = file.read()
+    if file1_content == file2_content:
+        print('Files are the same')
+    else:
+        print('Files are different')
 
 
 validate_args()
