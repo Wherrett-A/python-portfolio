@@ -18,9 +18,12 @@ Your marker will leave a mark and feedback in this file.*
 *Describe here the work that is in the ``practicals`` folder. Pay special attention
 to any work you have included that is not taken from the sheets on MyBeckett. Write no more than 100 words.*
 
-each folder contains python files named task1.py, task2.py... etc. each one corresponds to a task from that weeks
+Each folder contains python files named task1.py, task2.py... etc. each one corresponds to a task from that weeks
 portfolio tasks. All portfolio tasks are completed and are fully functional. I am not aware of any errors or bugs.
-Each python file contains a multi-line comment containing the task brief.
+Each python file contains a multi-line comment containing the task brief. In the additional work directory, there is
+a program called 'totp.py', this will eventually generate time base authentication codes. It currently does generate
+a unique 6 digit integer every 30 seconds however this number is not the same as other authenticator apps given the
+same key.
 
 ## 1. Task 1: Pizza Prices
 
