@@ -27,6 +27,7 @@ def take_inputs():
 
 
 def valid_input(**options):
+    # Kwargs used for valid_input function to make adding extra rules easier
     # if the number of pizzas the user entered is not an integer, the function returns an error
     if not options['pizzas'].isnumeric():
         return 'Number of pizzas should be an integer.'

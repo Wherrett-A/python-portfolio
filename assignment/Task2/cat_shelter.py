@@ -44,14 +44,12 @@ def output(ours, theirs, total_time, average, longest, shortest):
     greeting = 'Log File Analysis'
 
     print(greeting + '\n' + '=' * len(greeting) + '\n')
-    print(f'''Cat Visits: {ours}
-Other Cats: {theirs}
-
-Total Time in House: {total_time}
-
-Average Visit Length: {average}
-Longest Visit: {longest}
-Shortest Visit: {shortest}''')
+    print(f'Cat Visits: {ours}\n'
+          f'Other Cats: {theirs}\n\n'
+          f'Total Time in House: {total_time}\n\n'
+          f'Average Visit Length: {average}\n'
+          f'Longest Visit: {longest}\n'
+          f'Shortest Visit: {shortest}')
 
 
 # using [1:] to remove the first argument which would be the name of the python file
